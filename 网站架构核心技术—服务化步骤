@@ -1,1 +1,43 @@
-<mxfile host="www.draw.io" modified="2020-03-09T04:04:21.738Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" version="12.8.1" etag="fChvez15d0Pc2O_ENqwb" type="github"><diagram id="WPIl3-LJ87ngFy2hr4vU">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-03-09T04:07:08.466Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="VVSbtAb6wkXFNU2rBCVi" version="12.8.1" type="github">
+  <diagram id="WPIl3-LJ87ngFy2hr4vU" name="Page-1">
+    <mxGraphModel dx="946" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2mHWt8oYvBRCuX8xfKJz-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2mHWt8oYvBRCuX8xfKJz-1" target="2mHWt8oYvBRCuX8xfKJz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2mHWt8oYvBRCuX8xfKJz-1" value="进程内服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7" y="230" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2mHWt8oYvBRCuX8xfKJz-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2mHWt8oYvBRCuX8xfKJz-4" target="2mHWt8oYvBRCuX8xfKJz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2mHWt8oYvBRCuX8xfKJz-4" value="单机远程服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="147" y="230" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2mHWt8oYvBRCuX8xfKJz-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2mHWt8oYvBRCuX8xfKJz-6" target="2mHWt8oYvBRCuX8xfKJz-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2mHWt8oYvBRCuX8xfKJz-6" value="集群手动注册服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="277" y="230" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2mHWt8oYvBRCuX8xfKJz-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2mHWt8oYvBRCuX8xfKJz-8" target="2mHWt8oYvBRCuX8xfKJz-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2mHWt8oYvBRCuX8xfKJz-8" value="自动注册和服务发现" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="407" y="230" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2mHWt8oYvBRCuX8xfKJz-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2mHWt8oYvBRCuX8xfKJz-10" target="2mHWt8oYvBRCuX8xfKJz-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2mHWt8oYvBRCuX8xfKJz-10" value="服务分组/隔离/路由" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="557" y="230" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2mHWt8oYvBRCuX8xfKJz-12" value="服务治理&lt;br&gt;比如限流、黑白名单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="704" y="230" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
